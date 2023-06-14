@@ -6,7 +6,7 @@ programa
 		inteiro planeta
 		real gravidade
 		
-		escreva("A lista de planetas é a seguinte :\n Marte = 1, Venus = 2 Mercurio = 3 Terra = 4 Jupiter = 5 Saturno = 6\n")
+		escreva("A lista de planetas é a seguinte :\n Marte = 1, Venus = 2 Mercurio = 3 Terra = 4 Jupiter = 5 Saturno = 6 Urano = 7 Neturno = 8\n")
 		escreva("o numero do planeta?\n")
 		leia(planeta)
 		se(planeta == 1)
@@ -39,6 +39,17 @@ programa
 				gravidade = 10*1.15
 				escreva("A gravidade de Saturno é: ",gravidade)
 			} 
+		senao se(planeta == 7)
+			{
+				gravidade = 10*1.17
+				escreva("A gravidade de Urano é: ",gravidade)
+			} 
+		senao se(planeta == 8)
+			{
+				gravidade = 10*1.18
+				escreva("A gravidade de Neturno é: ",gravidade)
+			} 
+			
 			
 	}
 }
@@ -47,7 +58,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 880; 
+ * @POSICAO-CURSOR = 218; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
